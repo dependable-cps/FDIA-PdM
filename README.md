@@ -6,5 +6,6 @@ Industry 4.0 is the latest industrial revolution primarily merging automation wi
 # FDIA signature: 
 To model the FDIA on sensors, we add a vicious vector to the original vector, which modifies the sensor output by a very small margin (0.01% to 0.05%) for random FDIA and 0.02% for biased FDIA. Here, random FDIA means the noise added to the sensor output has a range (0.01% to 0.05%). Whereas, biased FDIA has a constant amount of noise added to the sensor output. Fig. 1 shows the comparison between the original and FDIA attacked output signal of sensor 2 for engine ID 3 for continuous FDIA. In continuous FDIA, we attack the sensor output from time cycles 130 to the end of life of the engine. In the case of interim FDIA as shown in Fig. 2, the attack duration is only for 20 time cycles (130 to 150 time cycles). Note, in the constrained attack the adversary has limited access to sensors. As shown in Fig. 1 and 2, the attack signature is very similar to the original signal, making it stealthy and harder to detect even with common defense mechanisms in place.
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/ContinuousSignature.png)
+![GitHub Logo](/images/InterimSignature.png)
 Format: ![Alt Text](url)
