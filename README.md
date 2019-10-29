@@ -11,6 +11,8 @@ For this work, we utilize LSTM, GRU, and CNN algorithms and compare their perfor
 
 From Table II The notation GRU(100,100,100) lh(80) refers to a network that has 100 nodes in the hidden layers of the first GRU layer, 100 nodes in the hidden layers of the second GRU layer, 100 nodes in the hidden layers of the third GRU layer, and a sequence length of 80. In the end, there is a 1-dimensional output layer.
 
+From Fig. 3 and Table II it is evident that the DL algorithm GRU(100, 100, 100) with a sequence length 80 has the least RMSE of 7.26. It means that GRU is very accurate in predicting accurate RUL for this dataset.
+
 <img src="https://github.com/dependable-cps/False-Data-Injection-Attacks-in-Internet-of-Things-and-Deep-Learning-enabled-Predictive-Analytics/blob/master/images/Hyper.PNG" height="300" width="480">
 
 <img src="https://github.com/dependable-cps/False-Data-Injection-Attacks-in-Internet-of-Things-and-Deep-Learning-enabled-Predictive-Analytics/blob/master/images/Comp.PNG" height="250" width="800">
