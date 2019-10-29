@@ -25,6 +25,8 @@ To model the FDIA on sensors, we add a vicious vector to the original vector, wh
 # Impact of FDIA on a PdM system
 The average degradation point of the engine is considered as 130 for the FD001 dataset, and we assume that the Engine Health Monitoring (EHM) system of the aircraft sends 20 time cycles of data to the ground at a time. The train and test dataset have 21 sensor data. The FDIA can be performed on 21 sensors, but to make the attack more realistic, we perform FDIA on only 3 sensors (specifically, T24, T50, and P30). In FDIA continuous scenario, the attacker has initiated the attacks after 130 time cycles (one time cycle is equivalent of one flight hour), and the attack duration is until end of life of the engine. In FDIA interim scenario, the attacker has initiated the attacks after 130 time cycles, and the attack duration is 20 hours (20 time cycles). Since the attack is initiated after 130 time cycles, we only consider the engines which have data for more than 130 cycles which gives us 37 engines in the FD001 dataset.
 
+It is evident from Fig. 4 and 5 that LSTM, GRU, and CNN are greatly affected by the continuous and interim FDI attack. In the case of random and biased FDIA, random FDIA showed a considerable impact on all PdM models.
+
 <img src="https://github.com/dependable-cps/False-Data-Injection-Attacks-in-Internet-of-Things-and-Deep-Learning-enabled-Predictive-Analytics/blob/master/images/AttackScenario.PNG" height="500" width="800">
 
 # Piece-wise RUL prediction
