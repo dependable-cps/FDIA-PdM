@@ -35,3 +35,14 @@ It is evident from Fig. 4 and 5 that LSTM, GRU, and CNN are greatly affected by 
 To show the impact of FDIA attacks on a specific engine data, we apply the piece-wise RUL prediction. The piece-wise RUL prediction gives a better visual representation of degradation in an aircraft engine. Figure 6(a) shows an example of an engine data from the dataset of 100 engines, and depicts the predicted RUL using GRU at each time step of that engine data. From Figure 6(a), it is evident that as the time series approaches the end of life, the predicted RUL (red line) is close to the true RUL (blue dashes), because the DL model has more time series data to accurately predict the RUL. Figure 6 and 7 gives piece wise RUL prediction after both continuous and interim FDIA.
 
 <img src="https://github.com/dependable-cps/False-Data-Injection-Attacks-in-Internet-of-Things-and-Deep-Learning-enabled-Predictive-Analytics/blob/master/images/PieceWise.PNG" height="500" width="800">
+
+# Citation
+If this is useful for your work, please cite our <a href="https://arxiv.org/pdf/1910.01716.pdf">arXiv paper</a>:<br>
+<div class="highlight highlight-text-bibtex"><pre>
+@article{mode2019false,
+  title={False Data Injection Attacks in Internet of Things and Deep Learning enabled Predictive Analytics},
+  author={Mode, Gautam Raj and Calyam, Prasad and Hoque, Khaza Anuarul},
+  journal={arXiv preprint arXiv:1910.01716},
+  year={2019}
+}
+</pre></div>
