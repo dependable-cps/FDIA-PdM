@@ -40,8 +40,8 @@ To show the impact of FDIA attacks on a specific engine data, we apply the piece
 If this is useful for your work, please cite our <a href="https://arxiv.org/pdf/1910.01716.pdf">arXiv paper</a>:<br>
 <div class="highlight highlight-text-bibtex"><pre>
 @article{mode2019false,
-  title={False Data Injection Attacks in Internet of Things and Deep Learning enabled 
-         Predictive Analytics},
+  title={False Data Injection Attacks in Internet of Things and Deep Learning enabled Predictive 
+  Analytics},
   author={Mode, Gautam Raj and Calyam, Prasad and Hoque, Khaza Anuarul},
   journal={arXiv preprint arXiv:1910.01716},
   year={2019}
