@@ -41,7 +41,7 @@ If this is useful for your work, please cite our <a href="https://arxiv.org/pdf/
 <div class="highlight highlight-text-bibtex"><pre>
 @article{mode2019false,
   title={False Data Injection Attacks in Internet of Things and Deep Learning enabled Predictive 
-  Analytics},
+  Analytics (Extended Version))},
   author={Mode, Gautam Raj and Calyam, Prasad and Hoque, Khaza Anuarul},
   journal={arXiv preprint arXiv:1910.01716},
   year={2019}
