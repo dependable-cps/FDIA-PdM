@@ -39,14 +39,15 @@ To show the impact of FDIA attacks on a specific engine data, we apply the piece
 # Citation
 If this is useful for your work, please cite our <a href="https://ieeexplore.ieee.org/abstract/document/9110395"> NOMS paper</a>, and/or the <a href="https://arxiv.org/pdf/1910.01716.pdf">arXiv paper (extended version)</a>:<br>
 <div class="highlight highlight-text-bibtex"><pre>
-@INPROCEEDINGS{9110395,
+@INPROCEEDINGS{hoque2020fdia,
   author={G. R. {Mode} and P. {Calyam} and K. A. {Hoque}},
   booktitle={NOMS 2020 - 2020 IEEE/IFIP Network Operations and Management Symposium}, 
   title={Impact of False Data Injection Attacks on Deep Learning Enabled Predictive Analytics}, 
   year={2020},
   volume={},
   number={},
-  pages={1-7}}
+  pages={1-7}
+  }
 </pre></div>
 
 <div class="highlight highlight-text-bibtex"><pre>
